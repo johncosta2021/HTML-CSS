@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(102, 101, 101);
+            padding-left: 3px;
+            box-shadow: 1px 1px 1px black; /* primeira deslocamento é horizontal, segunda deslocamento é vertical, terceiro é espalhamento */
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: rgb(165, 165, 165);
+        }
+        article > aside{
+            background-color: lightgray;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+     <header> <!--header significa cabeçalho -->
+        <h1>Meu site</h1>
+         <nav> <!--nav usando para fazer menu -->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+         </nav>
+        <div>
+            <!-- div do tipo de box level -->
+        </div>
+    </header>
+     <main> <!--main significa conteúdo principal -->
+         <section id="assuntos"> <!--section significa sessão -->
+
+        </section>
+        <section id="notícias">
+             <article> <!--article significa artigo -->
+                <h2>notícias sobre Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laudantium aut suscipit nostrum maiores tempore unde in natus vel eveniet? Eos quam a non vel hic laborum blanditiis repellendus quia.</p>
+                <aside>
+                    <p>artigo escrito por josé da silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+        <span>
+            <!-- span é do tipo inline level -->
+        </span>
+    </main>
+     <footer> <!--footer significa rodapé -->
+        <p>Desenvolvido por min</p>
+    </footer>
+    <!-- tags de agrupamento são as "div" e o "span"-->
+</body>
+</html>

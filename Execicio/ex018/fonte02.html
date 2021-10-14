@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face{
+            font-family: 'love';   /*o valor passado pode ser qualquer nome que vc quiser*/
+            src: url('fonte/Pinky\ Cupid.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            tipos de formatos()
+            -> opentype (otf)
+            -> truetype (ttf)
+            -> embedded - opentype
+            -> trutype-aat(apple advanced typography)
+            -> srv
+            */
+        }
+        body{
+            font-family: 'love',arial;
+            font-size: 2em;
+        }
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolor sapiente praesentium molestiae enim impedit voluptas corporis vitae corrupti soluta sit odio nobis ipsa reprehenderit quis, autem illo placeat quo.</p>
+</body>
+</html>

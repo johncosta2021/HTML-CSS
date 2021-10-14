@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagens dinãmicas</h1>
+    <p>tente abrir esse site em dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="IMAGENS/FOTO-G.png" alt="imagens em html">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>vamos tocar audio em html5</p>
+    <audio src="midia/sub-urban-dua-lipa-freak-feat-saweetie-rei-ami-mashart-remix.mp3" controls ></audio> <br>
+    <audio src="midia/Anunciação (Ao Vivo)_160k.mp3" controls loop></audio>
+
+    <p>outra</p>
+    <audio preload="auto" controls loop>
+        <source src="midia/Anunciação (Ao Vivo)_160k.mp3" type="audio/mpeg">
+        <!--essa duas ultimas são o navegador tentar carregar a outras duas musicas, caso a primeira não seja possivel-->
+        <source src="midia/Anunciação (Ao Vivo)_160k.ogg" type="audio/ogg"> ] 
+        <source src="midia/Anunciação (Ao Vivo)_160k.wav" type="audio/wav"> ]
+        <p>infelizmente seu navegador não carrega esse audio. <a href="midia/Anunciação (Ao Vivo)_160k.mp3">clique aqui para baixar um arquivo o mp3</a> </p>
+    </audio>
+</body>
+</html>

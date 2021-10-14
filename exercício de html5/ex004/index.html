@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <form action="" method="GET">
+        <fieldset>
+
+            <fieldset>  
+                <legend>Dados do usuário</legend>
+                <br>
+                nome:* <br>
+                <input type="text" name="nome" maxlength="40" placeholder="Nome completo" required>
+            <br>
+                senha:*
+                <br>
+                <input type="password" name="senha" placeholder="8 dígito" maxlength="8" required>
+            <br>
+                Email:* <br>
+                <input type="email" name="Email" id="" placeholder="Email" required>
+            <br>
+                nascimento:* <br>
+                 <input type="date" name="nasc" placeholder="Nascimento" required>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>sexo:*</legend><br>   
+                    <label><input type="radio" name="sexo" value="feminino" required> Feminino</label> 
+                <br>
+                    <label><input type="radio" name="sexo" value="masculino" required> Masculino</label>
+                <br>
+                    <label><input type="radio" name="sexo" value="Outros"> Outros</label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Endereço do usuário</legend>
+                <br>
+                logradouro: *<br>
+                 <input type="text" name="logradouro" placeholder="Rua,Ave">
+                <br>
+                Número:*<br>
+                 <input type="number" name="Numero" placeholder="Numero"   min="0" max="9999" maxlength="4">
+                <br>
+                Estado:*<br>
+                <input type="text" name="estado" placeholder="estado">
+                <br>
+                Cidade:* <br>
+                 <input type="text" name="cidade" placeholder="Cidade">
+            </fieldset>
+            <br>
+            Escreva sua mensagem:*
+            <br>
+            <textarea name="texto" id="" cols="30" rows="5"></textarea>
+            <br>
+
+            Deseja recebee noticações?
+            <br>
+            <select name="noticacoes" id="">
+                <option value="Sim">Sim</option>
+                <option value="não">não</option>
+            </select>
+            <br><br>
+            * campo obrigatótio
+            
+            <input type="submit" value="enviar">
+        </fieldset>
+    </form>
+</body>
+</html>

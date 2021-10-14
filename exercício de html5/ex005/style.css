@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+    body{
+        /*sei que a css não foi pedido, mais coloquei pra ficar um pouco bonito*/
+        background-image: linear-gradient( to right , rgba(118, 173, 211, 0.76),white);
+    }
+    table{
+        border-spacing: 0pt;
+        border:solid 1px;
+    }
+    td{
+        border:solid 1px;
+        padding: 5px;
+    }

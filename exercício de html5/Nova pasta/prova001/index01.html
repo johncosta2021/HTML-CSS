@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <style>
+        fieldset{
+            width: 600px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="POST">
+        <fieldset>
+            <legend>formulário</legend>
+            <br><br>
+            Nome:
+                <input type="text" name="Nome" placeholder="nome"> 
+            <br> <br>
+            E-mail:
+                <input type="email" name="E-mail" placeholder="email">
+            <br> <br>
+            telefone:
+                <input type="tel" name="telefone" placeholder="telefone">
+            <br> <br>
+            Idade:
+                <input type="number" min="0" max="110" maxlength="3" placeholder="idade">
+            <br> <br>
+            sexo:
+                <label><input type="radio" name="sexo"> F</label>
+                <label><input type="radio" name="sexo"> M</label>
+            <br> <br>
+             Enviar arquivo: <br> <br>
+             <input type="file" id="" name="enviar arquivo" size="60">
+            Mensagens: <br> <br>
+                <textarea name="Mensagens" id="" cols="50" rows="5" placeholder="Digite aqui sua mensagem..."></textarea>
+            <br> <br>
+            <button type="submit">salvar</button>
+            <button type="reset">apagar</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

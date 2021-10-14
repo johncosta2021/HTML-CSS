@@ -1,0 +1,116 @@
+@charset "utf-8";
+body{
+    background-color: #eeeeee;
+}
+
+#topo{
+    width: 1350px;
+    background-color: #bbbbbb;
+    height: 80px;
+    border-radius: 5px;
+    box-shadow: -5px #bbbaba;
+}
+#topo a{
+    line-height: 70px;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+#menu{
+    width: 230px;
+    background-color: #aaaaaa;
+    height: 424px;
+    float: left;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    
+}
+#conteudo{
+    background-color: #888888;
+    height: 424px;
+    float: right;
+    width: 66.9em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px #bbbaba;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#conteudo p{
+    padding-left: 5px;
+    
+}
+.javascript{
+    width: 60px;
+    padding-left: 10px;
+}
+.java{
+    width: 60px;
+    padding-left: 10px;
+}
+.html{
+    width: 60px;
+    padding-left: 10px;
+}
+.php{
+    width: 60px;
+    padding-left: 10px;
+}
+.python{
+    width: 60px;
+    padding-left: 10px;
+}
+#rodape{
+    background-color: #333333;
+    width: 1350px;
+    clear: both;
+    height: 55px;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 55px;
+}
+#busca{
+     margin-left: 37em;
+     height: 30px;
+     border-radius: 10px;
+     text-align: center;
+     font-style: italic;
+     border: solid 1px;
+     width: 20%;
+    
+}
+
+#button{
+      height: 35px;
+      border-radius: 10px;
+      cursor: pointer;
+}
+#menu a,li{
+    list-style-type: none;
+    padding: 9px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 21px;
+    color: black;
+    font-weight: bolder;
+}
+#menu h2{
+    padding: 9px;
+    
+}
+#menu li:hover{
+    list-style-type: none;
+    background-color: #eee;
+    width: 80px;
+    
+}
+#sign{
+    font-size: 30px;
+    margin-left: 5px;
+}
+.sign1{
+    font-size: 23px;
+    margin: 5px;
+}

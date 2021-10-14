@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.p1{
+    color: black;
+    background-color: yellow;
+    margin-left: 30px;
+    width: 500px;
+    
+    text-align: center right;
+    padding: 25px;
+    
+}
+body{
+    background-color: darkgray;
+}
+/*.p2{
+    border: dashed 2px;
+    color: black;
+    background-color: rgb(19, 153, 243);
+    width: 900px;
+
+}*/
+.p3{
+    background-color: greenyellow;
+    width: 600px;
+    padding: 25px;
+    margin-left: 680px;
+    text-align: center right;
+}
+img{
+    float: right;
+
+}
+div{
+    border: dashed 2px;
+    color: black;
+    background-color: rgb(19, 153, 243);
+    width: 1000px;
+    padding: 18px;
+    margin-left: 30px;
+    
+}

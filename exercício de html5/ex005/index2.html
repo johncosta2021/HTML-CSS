@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resumo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="POST">
+        <fieldset>
+            nome completo:* <br>
+                <input type="text" name="nome completo" placeholder="Nome completo" required>
+            <br>
+            senha:* <br>
+                <input type="password" name="senha" placeholder="senha" required>
+            <br>
+            email:* <br>
+                <input type="email" name="email" placeholder="email" required>
+            <br>
+            nascimento:* <br>
+                <input type="date" name="nascimento"> <br>
+            <br>
+            <fieldset>
+                sexo: <br>
+                <label><input type="radio" name="sexo" value="F" required> F</label>
+                <label><input type="radio" name="sexo" value="M" required> M</label>
+            </fieldset>
+            <br>
+            <fieldset>
+            Endereço:* <br>
+                <input type="text" name="endereço" placeholder="Endereço" required>
+            <br>
+            Número:* <br>
+                <input type="number" name="numero" placeholder="Número" min="0" max="9999" maxlength="4" required>
+            <br>
+            estado:* <br>
+            <select name="estados-brasil" required>
+                <option value="AC">Acre - Rio branco</option>
+                <option value="AL">Alagoas - Maceió</option>
+                <option value="AP">Amapá - Macapá</option>
+                <option value="AM">Amazonas - Manaus</option>
+                <option value="BA">Bahia - Salvador</option>
+                <option value="CE">Ceará - Fortaleza</option>
+                <option value="DF">Distrito Federal - Brasília</option>
+                <option value="ES">Espírito Santo - vitória</option>
+                <option value="GO">Goiás - Goiânia</option>
+                <option value="MA">Maranhão - São luis</option>
+                <option value="MT">Mato Grosso - Cuiabá</option>
+                <option value="MS">Mato Grosso do Sul - Campo grande</option>
+                <option value="MG">Minas Gerais - Belo horizonte</option>
+                <option value="PA">Pará - Belém</option>
+                <option value="PB">Paraíba - João pessoa</option>
+                <option value="PR">Paraná - Curitiba</option>
+                <option value="PE">Pernambuco - Recife</option>
+                <option value="PI">Piauí - Teresina</option>
+                <option value="RJ">Rio de Janeiro - Rio de janeiro</option>
+                <option value="RN">Rio Grande do Norte - Natal</option>
+                <option value="RS">Rio Grande do Sul- Porto alegre</option>
+                <option value="RO">Rondônia - Porto velho</option>
+                <option value="RR">Roraima - Boa vista</option>
+                <option value="SC">Santa Catarina - Florianópolis</option>
+                <option value="SP">São Paulo - São paulo</option>
+                <option value="SE">Sergipe - Aracaju</option>
+                <option value="TO">Tocantins - Palmas</option>
+            </select>
+            </fieldset>
+            <br>
+            Escreva sua mensagem:* <br>
+            <textarea name="Escreva sua mensagem" id="" cols="30" rows="5" required></textarea>
+            <br>
+            Deseja recebe notificações? <br>
+            <select name="notificações">
+                <option value="sim">Sim</option>
+                <option value="Não"> Não</option>
+            </select>
+            <br> <br>
+            * Campo obrigatório
+            <input type="submit" value="enviar">
+        </fieldset>
+    </form>
+    <a href="index01.html"><img src="voltar.png" alt=""></a>
+</body>
+</html>

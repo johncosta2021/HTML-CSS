@@ -1,0 +1,26 @@
+body{
+	background-color: #00008B; /* cor de fundo */
+	font-family: Verdana; /* tipo de fonte */
+}
+.titulo_destaque{
+	color: #FFFFFF;
+	border-bottom: 2px dotted #FF0000; /*borda inferior */
+}
+.paragrafo_destaque{
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	padding: 5px;
+	text-align: justify;
+}
+.titulo_normal{
+	color: #FFFF00;	
+	border-bottom: 4px solid #0000FF;
+}
+.paragrafo_normal{
+	background-color: #000000;
+	text-align: justify;
+	color: #FFFFFF;
+	padding: 5px;
+	border: 1px solid #FFFFFF;
+	margin-right: 200px;
+}

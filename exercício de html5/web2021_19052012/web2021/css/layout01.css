@@ -1,0 +1,50 @@
+*{
+	margin: 0 auto; /* retira as margens do layout e centraliza as divs */
+}
+body{
+	font-family: verdana;
+	background-color: #EEEEEE;	
+}
+#topo{
+	background-color: #DDDDDD;
+	height: 40px; /* algura */
+}
+#principal{
+	background-color: #DDDDDD;
+	width: 70%; /* comprimento */
+	padding: 5px; /* margem interna */
+	margin-top: 10px; /* margem externa no topo */
+	margin-bottom: 10px; /* margem externa abaixo */
+	border-radius: 5px; /* borda arredondada */
+	box-shadow: 5px 5px #555555; /* define sombra direita/baixo/cor */
+}
+#rodape{
+	background-color: #DDDDDD;
+	width: 70%;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 5px 5px #555555; /* define sombra direita/baixo/cor */
+	height: 30px; /* altura */
+	text-align: center;
+}
+.para01{
+	text-align: justify;
+}
+#topo a{
+	text-decoration: none; /* retira sublinhado ou adiciona Ex: none/underline */
+	background-color: #BBBBBB;
+	line-height: 40px; /* altura da linha */
+	float: left; /* flutuação a esquerda */
+	width: 100px;
+	text-align: center; 
+	color: #FFFFFF;
+}
+#topo a:hover{ /* ao colocar o mouse em cima do link*/
+	background-color: #999999;
+}
+img{
+	float: left; /* flutua o elemento a esquerda */
+	padding-right: 5px; /* margem interna a direita */
+}
+
+

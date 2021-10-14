@@ -1,0 +1,19 @@
+body{
+	background-color: #DDDDDD; /* cor de fundo */
+	font-family: Verdana; /* tipo de fonte */
+}
+.destaque {
+	background-color: #0000FF; /* cor de fundo */
+	border: 2px solid #BBBBBB; /* borda */
+	border-radius: 5px; /* borda arredondada */
+	color: #FFFFFF; /* cor da fonte */
+	padding: 10px; /* margem interna */
+	margin: 20px; /* margem externa */
+	font-size: 15px; /* tamanho da fonte */
+	text-align: center; /* alinhamento do texto */
+}
+.normal{
+	background-color: #FF0000;
+	color: #00FF00;
+	padding: 5px;
+}

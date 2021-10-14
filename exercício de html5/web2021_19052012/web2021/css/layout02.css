@@ -1,0 +1,41 @@
+*{ /* seletor para toda a página */
+	margin: 0 auto;
+}
+body{ /* seletor de tag HTML */
+	font-family: verdana;
+}
+#topo{ /* seletor de id */
+	background-color: #FFFF00;	
+	width: 80%; /* pode usar % ou px */
+	height: 100px;
+	margin-top: 10px;
+}
+#menu{
+	background-color: #FF00FF;	
+	width: 20%; /* pode usar % ou px */
+	height: 400px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10%;
+}
+#conteudo{
+	background-color: #00FFFF;
+	height: 400px;
+	margin-top: 10px;
+	width: 59%;
+	float: right;
+	margin-right: 10%;
+}
+.classe_paragrafo{ /* seletor de classe */
+	color: #F43647;
+}	
+
+#rodape{
+	width: 80%;
+	background-color: #003364;
+	height: 50px;
+	/*clear: both;*/
+	margin-top: 10px;
+	float: left;
+	margin-left: 10%;
+}
