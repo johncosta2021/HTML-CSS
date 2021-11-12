@@ -5,9 +5,16 @@
         <root foldername="C:\xampp\htdocs\ex004" />
     </FileBrowser>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
-        <File filename="C:\Users\Agua branca\Documents\Estudos\HTML-CSS\notepad\Notepad++\change.log" />
-        <File filename="C:\xampp\htdocs\ex002\index.php" />
         <File filename="C:\xampp\htdocs\TEST\listagem_alunos.php" />
+        <File filename="C:\xampp\htdocs\ex005\Formulario_inserir.php" />
+        <File filename="C:\Users\Agua branca\Documents\Estudos\JAVA SCRIPT\exercicio\mascara de cpf e telefone\mascara.html" />
+        <File filename="C:\Users\Agua branca\Documents\Estudos\HTML-CSS\exerc&#x00ED;cio de html5\prova001\index01.html" />
+        <File filename="C:\Users\Agua branca\Documents\Estudos\HTML-CSS\exerc&#x00ED;cio de html5\prova001\index.html" />
+        <File filename="C:\xampp\htdocs\TEST\listagem_alunos.html" />
+        <File filename="C:\xampp\htdocs\prova001\tabela celulares\celulares.sql" />
+        <File filename="C:\xampp\htdocs\ex004\listagem_alunos.php" />
+        <File filename="C:\xampp\htdocs\ex003 - Copia\listagem_alunos.php" />
+        <File filename="C:\xampp\htdocs\ex003 - Copia\banco.php" />
     </History>
     <ProjectPanels>
         <ProjectPanel id="0" workSpaceFile="" />
@@ -24,7 +31,7 @@
         <GUIConfig name="AppPosition" x="0" y="0" width="1100" height="700" isMaximized="yes" />
         <GUIConfig name="FindWindowPosition" left="0" top="0" right="0" bottom="0" />
         <GUIConfig name="FinderConfig" wrappedLines="no" purgeBeforeEverySearch="no" />
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20211008">no</GUIConfig>
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20211105">no</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
