@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testando imagem no fundo</title>
     <style>
+        body{
+            background-image: url("imagens/pattern002.png");
+            background-repeat: no-repeat;
+            background-size: 50%; 
+            
+        }
         div.quadrado{
             display: inline-block;
             border: solid 2px black;
@@ -16,8 +22,11 @@
         div#q1{
             background-image: linear-gradient(to right, red, yellow, green, blue, indigo, violet);
         }
+        div#q2{
+            background-image: url("imagens/pattern004.png");
+        }
         div#q3{
-            background-image: url('imagens/pattern001.png');
+            background-image: url("imagens/pattern001.png");
 
         }
     </style>

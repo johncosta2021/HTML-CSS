@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo fixado de tela</title>
+    <style>
+        body{
+            background-color: black;
+            background-image: url("imagens/wallpaper002.jpg");
+            background-repeat: no-repeat;
+            background-size: cover; /* Se o background-size é contain ou cover : A imagem é renderizada, preservando sua proporção intrínseca, com o maior tamanho contido, ou cobrindo a área do elemento pai. Se a imagem não tiver uma proporção intrínseca, então ela é renderizada no tamanho da área do elemento pai. */
+
+            height: 100vh; /* A medida vh é igual a 1/100 da altura da viewport. Então, por exemplo, se a altura do navegador é 900px , 1vh equivale a 9px e, analogamente, se a largura da viewport é 750px , 1vw equivale a 7.5px */
+
+            background-position: center center;
+            background-attachment: fixed; /* Para que a imagem do fundo seja fixada na tela */
+            /* shorthand -> background: color > image > position > repeat > [size]- não funciona no momento > attachment*/
+
+            /* background: black url("imagens/wallpaper002.jpg") center center no-repeat fixed; */ 
+        }
+        main{
+            margin: auto;
+            background-color: white;
+            max-width: 400px;
+            /* height: 200px; */
+            border-radius: 10px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>teste de imagem de fundo</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt dignissimos earum cum provident sint error consequatur nemo, beatae, cumque hic, quis debitis nulla odio placeat ad aperiam ipsum. Consectetur, ex.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, dolor velit nihil beatae error voluptates. Rerum molestiae ea impedit, enim omnis repudiandae quaerat qui eaque nostrum? Laudantium excepturi debitis reprehenderit?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt dignissimos earum cum provident sint error consequatur nemo, beatae, cumque hic, quis debitis nulla odio placeat ad aperiam ipsum. Consectetur, ex.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, dolor velit nihil beatae error voluptates. Rerum molestiae ea impedit, enim omnis repudiandae quaerat qui eaque nostrum? Laudantium excepturi debitis reprehenderit?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt dignissimos earum cum provident sint error consequatur nemo, beatae, cumque hic, quis debitis nulla odio placeat ad aperiam ipsum. Consectetur, ex.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, dolor velit nihil beatae error voluptates. Rerum molestiae ea impedit, enim omnis repudiandae quaerat qui eaque nostrum? Laudantium excepturi debitis reprehenderit?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt dignissimos earum cum provident sint error consequatur nemo, beatae, cumque hic, quis debitis nulla odio placeat ad aperiam ipsum. Consectetur, ex.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, dolor velit nihil beatae error voluptates. Rerum molestiae ea impedit, enim omnis repudiandae quaerat qui eaque nostrum? Laudantium excepturi debitis reprehenderit?</p>
+    </main>
+</body>
+</html>
