@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container{
+            background-image: url("imagens/target001.png");
+            background-size: 100% 100%;
+            background-color: purple;
+            height: 97vh;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+        /* obs: A posição (position) sempre um deve ser relativo e o outro deve ser absolute quando uma classe esta dentro da outra */
+        #conteudo{
+            background-image: url("imagens/target001.png");
+            background-size: 100% 100%;
+            background-color: yellow;
+            height: 200px;
+            width: 400px;
+            background-repeat: no-repeat;
+            left: 50%;
+            top: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%); /* obs: a transform é uma propriedade do CSS3 */
+        }
+    </style>
+</head>
+<body>
+     <section id="container"> <!-- A tag section é utilizada para marcar as seções de conteúdo de uma página. Com Esse elemento agrupamos de forma lógica nosso conteúdo, separando a informação em áreas diferentes. -->
+
+             <article id="conteudo"> <!--O elemento article destina-se a marcar um conteúdo que se constitua em um componente autossuficiente em uma página, aplicação ou site e que possa ser distribuido ou reusado de forma independente (isolada). -->
+                
+
+            </article>
+    </section>
+</body>
+</html>
