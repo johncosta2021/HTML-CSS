@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+:root{
+    ---font1: verdana, sans-serif;
+    ---font3: 'Sriracha', 'cursive';
+    ---font2: 'passion-one', 'cursive';
+    
+}
+* {
+    margin:0;
+    padding:0;
+}
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(---font1);
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+header >h1{
+    /* text-transform: uppercase;  --- colocar todas as letras em maiúsculo */
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(---font2);
+    font-size: 6vw; /* vw é a largura da tela */
+}
+header p{
+    padding-bottom: 50px; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 24vh;
+    padding-left: 35px;
+    line-height: 2em;
+    font-family: var(---font3);
+    font-size: 22px; /* 5vw = 5% do tamanho da tela, vw ou views widht que é a largura da tela */
+}
+section > p{
+    padding-top: 25px;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    color: white;
+    background-color: rgb(66, 65, 65);
+    
+}
+section.imagem > p{
+    background-color: rgb(66, 65, 65);
+    /* width: 260px; */
+    padding: 10px;
+    display: inline-block;
+}
+#d1{
+    background-image: url("imagens/background001.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-attachment: fixed;
+}
+#d2{
+    background-image: url("imagens/background002.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-attachment: fixed;
+}
+footer{
+    background-color: black;
+    height: 100px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
