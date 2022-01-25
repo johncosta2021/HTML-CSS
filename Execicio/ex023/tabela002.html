@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        
+        table{
+            border-collapse: collapse; /* serve para tirar os espaçamento entre dados da tabelas (TD)*/
+            width: 600px;
+            position: relative;
+
+        }
+        thead > tr > th{ /* cabeçalho da tabela fixo. lembrado que tem que deixa a tabela em um posicionamento relativo */
+            position: sticky;
+            background-color: #ccc;
+            top: -1px;
+        }
+        thead, tfoot{
+            background-color: #ccc;
+        }
+        tbody > tr:nth-child(2n){ /* serve para a cor ser colocada a cada instante, no caso em 2 em 2. alguns valores como even que significa pares e odd que significa números ímpares */
+            background-color: #ddd;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        caption{
+            font-size: 20px;
+            font-weight: bold; /* fonte negrito */
+            text-align: center;
+            background-color: #ccc;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- ANATOMIA DE TABELAS GRANDES 
+            TABLE
+                CAPTION = LEGENDA DA TABELA - significa que esta tabela é uma legenda e não pode inserir "TR, TD e TH"
+                THEAD = CABEÇALHO DA TABELA
+                    TR, TD, TH
+                TBODY = CORPO DA TABELA
+                    TR, TD, TH
+                TFOOT = RODAPÉ DA TABELA
+                    TR, TD, TH
+        -->
+
+    <h1>Uso de tabelas grandes</h1>
+        
+    <table>
+        <caption>População de Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">N°</th> <!-- <atributo scope identifica se uma célula é um grupo cabeçalho da coluna, linha, coluna ou grupo de linhas -->
+                <th scope="col">Estados</th>
+                <th scope="col">População</th>
+                <!-- O "col" indica que o título é daquela coluna, já o "row" indica que o título é daquela linha -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Piauí</td>
+                <td>4.556,45</td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Rio de janeiro</td>
+                <td>8.753,14</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Paraná</td>
+                <td class="num">11.433.957</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Pernambuco</td>
+                <td class="num">9.557.071</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Ceará</td>
+                <td class="num">9.132.078</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                <td>8</td>
+                <td>15.309,59</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptas optio perspiciatis reprehenderit quod mollitia iste, soluta, illo, in deleniti eligendi consectetur provident voluptatem veritatis eum eius nulla ut omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eveniet amet voluptatem veniam voluptatum officia quisquam perspiciatis blanditiis, mollitia ratione qui nesciunt, sint deleniti, assumenda quasi quos vero doloribus! Fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, consectetur architecto omnis rem, ullam adipisci tenetur dolore perspiciatis officiis vitae voluptates atque laborum necessitatibus! Reiciendis aspernatur impedit reprehenderit dignissimos placeat? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda unde repellat dolorum eum voluptates ad illum recusandae, aperiam nihil et? Blanditiis, illo! In consectetur accusantium odit quos, repudiandae aut aspernatur?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptas optio perspiciatis reprehenderit quod mollitia iste, soluta, illo, in deleniti eligendi consectetur provident voluptatem veritatis eum eius nulla ut omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eveniet amet voluptatem veniam voluptatum officia quisquam perspiciatis blanditiis, mollitia ratione qui nesciunt, sint deleniti, assumenda quasi quos vero doloribus! Fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, consectetur architecto omnis rem, ullam adipisci tenetur dolore perspiciatis officiis vitae voluptates atque laborum necessitatibus! Reiciendis aspernatur impedit reprehenderit dignissimos placeat? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda unde repellat dolorum eum voluptates ad illum recusandae, aperiam nihil et? Blanditiis, illo! In consectetur accusantium odit quos, repudiandae aut aspernatur?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptas optio perspiciatis reprehenderit quod mollitia iste, soluta, illo, in deleniti eligendi consectetur provident voluptatem veritatis eum eius nulla ut omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eveniet amet voluptatem veniam voluptatum officia quisquam perspiciatis blanditiis, mollitia ratione qui nesciunt, sint deleniti, assumenda quasi quos vero doloribus! Fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, consectetur architecto omnis rem, ullam adipisci tenetur dolore perspiciatis officiis vitae voluptates atque laborum necessitatibus! Reiciendis aspernatur impedit reprehenderit dignissimos placeat? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda unde repellat dolorum eum voluptates ad illum recusandae, aperiam nihil et? Blanditiis, illo! In consectetur accusantium odit quos, repudiandae aut aspernatur?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptas optio perspiciatis reprehenderit quod mollitia iste, soluta, illo, in deleniti eligendi consectetur provident voluptatem veritatis eum eius nulla ut omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eveniet amet voluptatem veniam voluptatum officia quisquam perspiciatis blanditiis, mollitia ratione qui nesciunt, sint deleniti, assumenda quasi quos vero doloribus! Fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, consectetur architecto omnis rem, ullam adipisci tenetur dolore perspiciatis officiis vitae voluptates atque laborum necessitatibus! Reiciendis aspernatur impedit reprehenderit dignissimos placeat? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda unde repellat dolorum eum voluptates ad illum recusandae, aperiam nihil et? Blanditiis, illo! In consectetur accusantium odit quos, repudiandae aut aspernatur?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptas optio perspiciatis reprehenderit quod mollitia iste, soluta, illo, in deleniti eligendi consectetur provident voluptatem veritatis eum eius nulla ut omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eveniet amet voluptatem veniam voluptatum officia quisquam perspiciatis blanditiis, mollitia ratione qui nesciunt, sint deleniti, assumenda quasi quos vero doloribus! Fuga. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, consectetur architecto omnis rem, ullam adipisci tenetur dolore perspiciatis officiis vitae voluptates atque laborum necessitatibus! Reiciendis aspernatur impedit reprehenderit dignissimos placeat? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda unde repellat dolorum eum voluptates ad illum recusandae, aperiam nihil et? Blanditiis, illo! In consectetur accusantium odit quos, repudiandae aut aspernatur?</p>
+
+</body>
+</html>

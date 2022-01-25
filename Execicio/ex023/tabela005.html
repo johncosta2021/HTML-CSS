@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 600px;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .destaque{
+            background-color: aqua;
+            color: white;
+        }
+        .destaque2{
+            background-color: #ffc;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Execicio de Tabelas</h1>
+    <table>
+        <colgroup> <!-- Essa tag colgroup pode ser utilizada para faser efeito zebrado -->
+            <col class="destaque">
+            <col span="2" class="destaque2"> <!-- utilizando o span vc pode definir a quantidade de colunas que receber a classe ou cor -->
+            <col class="destaque">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>Masculino</td>
+                <td>20</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Feminino</td>
+                <td>25</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>Masculino</td>
+                <td>30</td>
+                <td>Professor</td>
+        </tbody>
+    </table>
+</body>
+</html>
