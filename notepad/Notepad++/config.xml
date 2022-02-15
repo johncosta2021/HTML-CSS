@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <NotepadPlus>
     <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="no" fifProjectPanel1="no" fifProjectPanel2="no" fifProjectPanel3="no" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no" searchMode="0" transparencyMode="1" transparency="150" dotMatchesNewline="no" isSearch2ButtonsMode="no" regexBackward4PowerUser="no" />
+    <FileBrowser latestSelectedItem="C:\Users\Agua branca\Documents\Estudos\JAVA SCRIPT\exercicio\ex002\index1.html">
+        <root foldername="C:\Users\Agua branca\Documents\Estudos\PHP" />
+        <root foldername="C:\Users\Agua branca\Documents\Estudos\JAVA SCRIPT\exercicio" />
+    </FileBrowser>
     <History nbMaxFile="10" inSubMenu="no" customLength="-1">
         <File filename="C:\Users\Agua branca\Documents\Estudos\JAVA SCRIPT\exercicio\mascara de cpf e telefone\mascara.html" />
         <File filename="C:\Users\Agua branca\Documents\Estudos\HTML-CSS\exerc&#x00ED;cio de html5\prova001\index01.html" />
@@ -18,10 +22,6 @@
         <ProjectPanel id="1" workSpaceFile="" />
         <ProjectPanel id="2" workSpaceFile="" />
     </ProjectPanels>
-    <FileBrowser latestSelectedItem="C:\Users\Agua branca\Documents\Estudos\JAVA SCRIPT\exercicio\ex002\index1.html">
-        <root foldername="C:\Users\Agua branca\Documents\Estudos\PHP" />
-        <root foldername="C:\Users\Agua branca\Documents\Estudos\JAVA SCRIPT\exercicio" />
-    </FileBrowser>
     <GUIConfigs>
         <GUIConfig name="ToolBar" visible="yes">standard</GUIConfig>
         <GUIConfig name="StatusBar">show</GUIConfig>
@@ -32,7 +32,7 @@
         <GUIConfig name="AppPosition" x="0" y="0" width="1100" height="700" isMaximized="yes" />
         <GUIConfig name="FindWindowPosition" left="0" top="0" right="0" bottom="0" />
         <GUIConfig name="FinderConfig" wrappedLines="no" purgeBeforeEverySearch="no" />
-        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20211128">no</GUIConfig>
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20220211">no</GUIConfig>
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
