@@ -5,6 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulário</title>
+    <script>
+        function mostrasenhac(){
+        let input = document.querySelector('#password');
+        if(input.getAttribute('type') == 'password') {
+            input.setAttribute('type', 'text');
+        } else {
+            input.setAttribute('type', 'password');
+        }
+        };
+    </script>
 </head>
 <body>
     <form action="" method="GET">
@@ -18,8 +28,7 @@
             <br>
                 senha:*
                 <br>
-                <input type="password" name="senha" placeholder="8 dígito" maxlength="8" required>
-            <br>
+                <input type="password" name="senha" placeholder="8 dígito" maxlength="8" required id="password"> <input type="checkbox" name="" id="" onclick="mostrasenha"> <br>
                 Email:* <br>
                 <input type="email" name="Email" id="" placeholder="Email" required>
             <br>
@@ -66,7 +75,8 @@
             <br><br>
             * campo obrigatótio
             
-            <input type="submit" value="enviar">
+            <input type="submit" value="enviar">  <input type="reset" value="limpar"> 
+            <button><a href="index1.html">voltar</a></button>
         </fieldset>
     </form>
 </body>
