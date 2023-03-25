@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulário</title>
     <script>
-        function mostrasenhac(){
-        let input = document.querySelector('#password');
-        if(input.getAttribute('type') == 'password') {
-            input.setAttribute('type', 'text');
-        } else {
-            input.setAttribute('type', 'password');
+        function mostrasenha(){
+            var senhainput = document.getElementById("senha");
+            var checkbox = document.getElementById("mostra-senha");
+
+            if (checkbox.checked){
+                senhainput.type = "text";
+            }else{
+                senhainput.type = "password";
+            }
         }
-        };
     </script>
 </head>
 <body>
-    <form action="" method="GET">
+    <form action="#" method="GET">
         <fieldset>
 
             <fieldset>  
@@ -28,7 +30,11 @@
             <br>
                 senha:*
                 <br>
-                <input type="password" name="senha" placeholder="8 dígito" maxlength="8" required id="password"> <input type="checkbox" name="" id="" onclick="mostrasenha"> <br>
+                <input type="password" name="senha" placeholder="8 dígito" maxlength="8" required id="senha"> 
+                <input type="checkbox" id="mostra-senha" onclick="mostrasenha()"> 
+                <label for="mostra-senha">Mostrar senha</label> 
+                
+            <br>
                 Email:* <br>
                 <input type="email" name="Email" id="" placeholder="Email" required>
             <br>
