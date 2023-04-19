@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="id_nome">nome</label>
+                <input type="text" name="nome" id="id_nome" minlength="5">
+            </p>
+            <p>
+                <label for="id_tel">Telefone</label>
+                <input type="tel" name="tel" id="id_tel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+                <!-- Estuda o Pattern para formatação de número em telefone -->
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
